@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC72D8E1A794245005869DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC72D8D1A794245005869DF /* main.m */; };
+		CBC72D911A794245005869DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC72D901A794245005869DF /* AppDelegate.m */; };
+		CBC72D941A794245005869DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC72D931A794245005869DF /* ViewController.m */; };
+		CBC72D971A794245005869DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC72D951A794245005869DF /* Main.storyboard */; };
+		CBC72D991A794245005869DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC72D981A794245005869DF /* Images.xcassets */; };
+		CBC72D9C1A794245005869DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC72D9A1A794245005869DF /* LaunchScreen.xib */; };
+		CBC72DA81A794245005869DF /* VRCFocucAWSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC72DA71A794245005869DF /* VRCFocucAWSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBC72DA21A794245005869DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC72D801A794245005869DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC72D871A794245005869DF;
+			remoteInfo = VRCFocucAWS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBC72D881A794245005869DF /* VRCFocucAWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRCFocucAWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC72D8C1A794245005869DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC72D8D1A794245005869DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBC72D8F1A794245005869DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBC72D901A794245005869DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBC72D921A794245005869DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBC72D931A794245005869DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBC72D961A794245005869DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC72D981A794245005869DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBC72D9B1A794245005869DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBC72DA11A794245005869DF /* VRCFocucAWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRCFocucAWSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC72DA61A794245005869DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC72DA71A794245005869DF /* VRCFocucAWSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRCFocucAWSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC72D851A794245005869DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC72D9E1A794245005869DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC72D7F1A794244005869DF = {
+			isa = PBXGroup;
+			children = (
+				CBC72D8A1A794245005869DF /* VRCFocucAWS */,
+				CBC72DA41A794245005869DF /* VRCFocucAWSTests */,
+				CBC72D891A794245005869DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC72D891A794245005869DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC72D881A794245005869DF /* VRCFocucAWS.app */,
+				CBC72DA11A794245005869DF /* VRCFocucAWSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC72D8A1A794245005869DF /* VRCFocucAWS */ = {
+			isa = PBXGroup;
+			children = (
+				CBC72D8F1A794245005869DF /* AppDelegate.h */,
+				CBC72D901A794245005869DF /* AppDelegate.m */,
+				CBC72D921A794245005869DF /* ViewController.h */,
+				CBC72D931A794245005869DF /* ViewController.m */,
+				CBC72D951A794245005869DF /* Main.storyboard */,
+				CBC72D981A794245005869DF /* Images.xcassets */,
+				CBC72D9A1A794245005869DF /* LaunchScreen.xib */,
+				CBC72D8B1A794245005869DF /* Supporting Files */,
+			);
+			path = VRCFocucAWS;
+			sourceTree = "<group>";
+		};
+		CBC72D8B1A794245005869DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC72D8C1A794245005869DF /* Info.plist */,
+				CBC72D8D1A794245005869DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC72DA41A794245005869DF /* VRCFocucAWSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC72DA71A794245005869DF /* VRCFocucAWSTests.m */,
+				CBC72DA51A794245005869DF /* Supporting Files */,
+			);
+			path = VRCFocucAWSTests;
+			sourceTree = "<group>";
+		};
+		CBC72DA51A794245005869DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC72DA61A794245005869DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC72D871A794245005869DF /* VRCFocucAWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC72DAB1A794245005869DF /* Build configuration list for PBXNativeTarget "VRCFocucAWS" */;
+			buildPhases = (
+				CBC72D841A794245005869DF /* Sources */,
+				CBC72D851A794245005869DF /* Frameworks */,
+				CBC72D861A794245005869DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRCFocucAWS;
+			productName = VRCFocucAWS;
+			productReference = CBC72D881A794245005869DF /* VRCFocucAWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBC72DA01A794245005869DF /* VRCFocucAWSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC72DAE1A794245005869DF /* Build configuration list for PBXNativeTarget "VRCFocucAWSTests" */;
+			buildPhases = (
+				CBC72D9D1A794245005869DF /* Sources */,
+				CBC72D9E1A794245005869DF /* Frameworks */,
+				CBC72D9F1A794245005869DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC72DA31A794245005869DF /* PBXTargetDependency */,
+			);
+			name = VRCFocucAWSTests;
+			productName = VRCFocucAWSTests;
+			productReference = CBC72DA11A794245005869DF /* VRCFocucAWSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC72D801A794245005869DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vision Research";
+				TargetAttributes = {
+					CBC72D871A794245005869DF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CBC72DA01A794245005869DF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CBC72D871A794245005869DF;
+					};
+				};
+			};
+			buildConfigurationList = CBC72D831A794245005869DF /* Build configuration list for PBXProject "VRCFocucAWS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC72D7F1A794244005869DF;
+			productRefGroup = CBC72D891A794245005869DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC72D871A794245005869DF /* VRCFocucAWS */,
+				CBC72DA01A794245005869DF /* VRCFocucAWSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC72D861A794245005869DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC72D971A794245005869DF /* Main.storyboard in Resources */,
+				CBC72D9C1A794245005869DF /* LaunchScreen.xib in Resources */,
+				CBC72D991A794245005869DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC72D9F1A794245005869DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC72D841A794245005869DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC72D941A794245005869DF /* ViewController.m in Sources */,
+				CBC72D911A794245005869DF /* AppDelegate.m in Sources */,
+				CBC72D8E1A794245005869DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC72D9D1A794245005869DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC72DA81A794245005869DF /* VRCFocucAWSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBC72DA31A794245005869DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC72D871A794245005869DF /* VRCFocucAWS */;
+			targetProxy = CBC72DA21A794245005869DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBC72D951A794245005869DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC72D961A794245005869DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC72D9A1A794245005869DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC72D9B1A794245005869DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC72DA91A794245005869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC72DAA1A794245005869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC72DAC1A794245005869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRCFocucAWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBC72DAD1A794245005869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRCFocucAWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBC72DAF1A794245005869DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRCFocucAWSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRCFocucAWS.app/VRCFocucAWS";
+			};
+			name = Debug;
+		};
+		CBC72DB01A794245005869DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VRCFocucAWSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRCFocucAWS.app/VRCFocucAWS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC72D831A794245005869DF /* Build configuration list for PBXProject "VRCFocucAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC72DA91A794245005869DF /* Debug */,
+				CBC72DAA1A794245005869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC72DAB1A794245005869DF /* Build configuration list for PBXNativeTarget "VRCFocucAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC72DAC1A794245005869DF /* Debug */,
+				CBC72DAD1A794245005869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBC72DAE1A794245005869DF /* Build configuration list for PBXNativeTarget "VRCFocucAWSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC72DAF1A794245005869DF /* Debug */,
+				CBC72DB01A794245005869DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC72D801A794245005869DF /* Project object */;
+}
